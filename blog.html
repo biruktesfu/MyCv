@@ -9,73 +9,106 @@
 
 </head>
 <body>
-    <!-- <p style="color: aliceblue;">This is inline CSS</p> -->
-
-    <header>
-<nav>
-<ul>
-    <li><a href="index.html">Index</a></li>
-    <li><a href="contact.html">Contact</a></li>
-    <li><a href="Gallery.html">Gallery</a></li>
-    <li><a href="blog.html"></a>Blog</li>
-</ul>
-<div id="content"></div>
-</div>
-</nav>
-
-    </header>
+    <hr>
+    <a href="index.html">Home |</a>
+    <a href="gallery.html">Gallery |</a>
+    <a href="blog.html">blog |</a>
+    <a href="contact.html">Contact</a>
+    <hr>
     <section class="firstS">
             <article>
-                <p class="title">My first Post</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit cupiditate consectetur aut obcaecati, cum quibusdam, consequuntur rem inventore itaque dolorum dolore? At, pariatur nulla? Ipsum explicabo reprehenderit tempore ipsam quas.</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit cupiditate consectetur aut obcaecati, cum quibusdam, consequuntur rem inventore itaque dolorum dolore? At, pariatur nulla? Ipsum explicabo reprehenderit tempore ipsam quas.</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit cupiditate consectetur aut obcaecati, cum quibusdam, consequuntur rem inventore itaque dolorum dolore? At, pariatur nulla? Ipsum explicabo reprehenderit tempore ipsam quas.</p>
-                <p class="date" >March 10, 2020</p>
+                <p class="title">Relative sizing</p>
+                <p> Percentage always sets relative to 
+                    some other value. For example if you use
+                     the percentage of the width of the parent 
+                     it will be the percentage of the width of
+                      the parent. This means the element using 
+                      the percentage depends on its parent size
+                       when zoomed since it is the some given 
+                       percentage of the parent.
+                </p>
+
+                <p>
+                    em takes sizing from the parent . For example
+                     if there are li elements in a ul with a
+                    class of em, the elements takes the sizing
+                    from their parent so each successive level
+                    of nesting gets progressively larger. When
+                    zooming em makes the nested elements larger 
+                    than the parents. 
+                </p>
+                
+                <p>
+                    rem takes the sizing of the root element.
+                     If there are li elements inside the 
+                     with a class of rems, these elements 
+                    take their sizing from the parent element.
+                    This means each successive level of nesting
+                    does not keep getting larger. Using rem makes
+                    elements and nested elements to enlarge equally
+                    when zoomed.
+                </p>
+
+                <p class="date" >March 20, 2020</p>
         
     
         </article>
     </section>
     <section>
             <article>
-                <p class="title">My Second Post</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit cupiditate consectetur aut obcaecati, cum quibusdam, consequuntur rem inventore itaque dolorum dolore? At, pariatur nulla? Ipsum explicabo reprehenderit tempore ipsam quas.</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit cupiditate consectetur aut obcaecati, cum quibusdam, consequuntur rem inventore itaque dolorum dolore? At, pariatur nulla? Ipsum explicabo reprehenderit tempore ipsam quas.</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit cupiditate consectetur aut obcaecati, cum quibusdam, consequuntur rem inventore itaque dolorum dolore? At, pariatur nulla? Ipsum explicabo reprehenderit tempore ipsam quas.</p>
-                <p class="date" >March 10, 2020</p>
-        
-    
-        </article>
-    </section>
-    <section>
-            <article>
-                <p class="title">My Third Post</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit cupiditate consectetur aut obcaecati, cum quibusdam, consequuntur rem inventore itaque dolorum dolore? At, pariatur nulla? Ipsum explicabo reprehenderit tempore ipsam quas.</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit cupiditate consectetur aut obcaecati, cum quibusdam, consequuntur rem inventore itaque dolorum dolore? At, pariatur nulla? Ipsum explicabo reprehenderit tempore ipsam quas.</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit cupiditate consectetur aut obcaecati, cum quibusdam, consequuntur rem inventore itaque dolorum dolore? At, pariatur nulla? Ipsum explicabo reprehenderit tempore ipsam quas.</p>
-                <p class="date" >March 10, 2020</p>
-        
-    
-        </article>
-    </section>
-    <section>
-            <article>
-                <p class="title">My Third Post</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit cupiditate consectetur aut obcaecati, cum quibusdam, consequuntur rem inventore itaque dolorum dolore? At, pariatur nulla? Ipsum explicabo reprehenderit tempore ipsam quas.</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit cupiditate consectetur aut obcaecati, cum quibusdam, consequuntur rem inventore itaque dolorum dolore? At, pariatur nulla? Ipsum explicabo reprehenderit tempore ipsam quas.</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit cupiditate consectetur aut obcaecati, cum quibusdam, consequuntur rem inventore itaque dolorum dolore? At, pariatur nulla? Ipsum explicabo reprehenderit tempore ipsam quas.</p>
-                <p class="date" >March 10, 2020</p>
-        
-    
-        </article>
-    </section>
-    <section>
-            <article>
-                <p class="title">My Third Post</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit cupiditate consectetur aut obcaecati, cum quibusdam, consequuntur rem inventore itaque dolorum dolore? At, pariatur nulla? Ipsum explicabo reprehenderit tempore ipsam quas.</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit cupiditate consectetur aut obcaecati, cum quibusdam, consequuntur rem inventore itaque dolorum dolore? At, pariatur nulla? Ipsum explicabo reprehenderit tempore ipsam quas.</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit cupiditate consectetur aut obcaecati, cum quibusdam, consequuntur rem inventore itaque dolorum dolore? At, pariatur nulla? Ipsum explicabo reprehenderit tempore ipsam quas.</p>
-                <p class="date" >March 10, 2020</p>
-        
+                <p class="title">Specific changes in CSS3</p>
+                <p>
+                    CSS3 is the latest standard for the CSS 
+                    language. It is backward compatible with 
+                    older versions of CSS, and has new properties 
+                    that extend CCS2 features, and it’s even got 
+                    some JavaScript-like capabilities.
+                </p>
+                <p>Here are some major changes in CSS3</p>
+                <p class="date" >March 20, 2020</p>
+                <p>
+                    1 . Mobile-first mentality:
+                    CSS3 inherently supports responsive
+                     design, and is equipped to handle media
+                      queries. Media queries are calls made 
+                      by the code to determine what device and
+                       size and screen a user is viewing the site on. 
+                </p>
+                <p>
+                    2 . Module-based code:
+                    One of the biggest developments is 
+                    that CSS3 is split into “modules”.
+                     All of the old CSS specifications have
+                      been migrated over to the new version
+                       and divided into smaller pieces.
+                </p>
+                <p>
+                    3 . Web font support gives designers access to way more than just “web safe” fonts: 
+                    Before CSS3, designers could only use “web safe” fonts to be 100 percent sure that 
+                    the fonts would always display the same on everyone’s machine. Web safe fonts are
+                     fonts that every single computer has installed and recognizes. If a designer used 
+                     common fonts like Times New Roman or Arial, they could pretty much guarantee that
+                      any user would view their site as it was intended. However, if they wanted to use
+                       a rarer font, if it wasn’t supported by a users machine, it would default back to
+                        a web safe font.
+                </p>
+                <p>
+                    4. Create 2D and 3D transformations, animations, and transitions:
+                    These effects allow elements on a page to rotate, grow, shrink,
+                     flip or translate into a different color. For the first time, elements 
+                     created in CSS can move on screen without requiring any JavaScript or
+                      Flash code. With transitions, an element can seamlessly change size 
+                      and color.
+                </p>
+                <p>
+                    5. New colors and image effects:
+                    CSS3 supports new colors (RGBA,HSL, HSLA) and
+                     gradient colors, and allows for adjustments to
+                      opacity. Another biggie is its support of rounded
+                       image corners, an effect that required a lot of 
+                       formatting and Photoshop work to achieve before.
+                </p>
+                <p class="date" >March 20, 2020</p>
     
         </article>
     </section>
